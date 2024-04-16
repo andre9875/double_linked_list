@@ -4,9 +4,9 @@ template <class T>
 struct node 
 { 
     // Pointer to the next node. 
-    struct node* next; 
+    node* next; 
     // Pointer to the previous node.
-    struct node* prev;
+    node* prev;
     T data;
 };
 
